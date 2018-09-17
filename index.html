@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<script src="js/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfont-->
+<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+		</script>
+</head>
+<body>
+ <!-- header-section-starts -->
+    <div class="header">
+		<div class="header-banner">
+			<div class="container">
+				<div class="top-menu">
+				    <span class="menu"> </span>
+					    <ul>
+							<li><a href="#ABOUT" class="scroll">ABOUT</a></li>
+							<li><a href="#WORK" class="scroll">WORK</a></li>
+							<li><a href="#BLOG" class="scroll">BLOG</a></li>
+							<li><a href="#CONTACT" class="scroll">CONTACT</a></li>
+							<div class="clearfix"></div>
+						</ul>
+				    </div>
+		 <!--script-nav-->
+		 <script>
+		 $("span.menu").click(function(){
+		 $(".top-menu ul").slideToggle("slow" , function(){
+		 });
+		 });
+		 </script>
+				<div class="header-banner-info text-center">
+					<a href="#"><img src="images/logo.png" alt="" /></a>
+					<h3>你好</h3>
+					<h1>我的名字是 <span>张雪薇,</span> </h1>
+					<p>是一名软件工程系的学生 </p>
+					<span class="line"></span>					 
+					<ul class="social-icons">
+						<li><a href="#"><i class="twitter"></i></a></li>
+						<li><a href="#"><i class="dribble"></i></a></li>
+						<li><a href="#"><i class="behance"></i></a></li>
+					</ul>
+					<label></label>
+					<ul class="details">
+						<li>年龄     :     <a href="#">21</a></li>
+						<li>学校     :     <a href="#">石家庄铁道大学</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- header-section-ends -->
+    <!-- content-section-starts -->
+    <div class="content-section">
+	    <!-- about-section-starts -->
+		<div class="about-section" id="ABOUT">
+			<div class="container">
+				<div class="about-section-head text-center">
+					<img src="images/head.png" alt="" />
+					<h3>关于我</h3>
+					<label></label>
+					<p>你想了解我吗？</p>
+				</div>
+				<div class="about-section-grids">
+					<div class="col-md-4 about-section-grid-1">
+						<h4>我是谁?</h4>
+						<p>你好，我叫张雪薇。是石家庄铁道大学信息科学与技术学院软件工程系的学生，家乡在美丽的城市天津。</p>
+						<p>在校学习的主攻方向为Java/javaweb，曾用几个实际项目当做案例进行开发，积累了一些相关经验。</p>
+						<p>参与过大数据技术的相关培训，会用mapreduce做简单的数据清洗与数据分析操作。 </p>
+						<ul class="social-icons">
+						    <li><a href="#"><i class="twitter"></i></a></li>
+						    <li><a href="#"><i class="dribble"></i></a></li>
+						    <li><a href="#"><i class="behance"></i></a></li>
+					    </ul>
+					</div>
+					<div class="col-md-4 about-section-grid-2 text-center">
+						<img src="images/zxw.jpg" class="img-responsive" alt="" /> 
+					</div>
+					<div class="col-md-4 about-section-grid-3">
+						<h4>我的技能</h4>
+						<p>程序设计</p>
+						<div class="progress-grid">
+				  	       <div class="meter red">
+							   <span style="width:65%;">
+							  	<div class="progress_desc">程序开发</div>
+								<div class="percent">60%</div> 
+						        <div class="clearfix"> </div>
+						       </span>
+							</div>
+							<div class="meter animate">
+							   <span style="width:65%;"><div class="progress_desc">软件测试</div>
+								<div class="percent">80%</div> 
+						        <div class="clearfix"> </div>
+							   </span>
+							</div>
+							<div class="meter">
+								<span style="width:30%;"><div class="progress_desc">算法</div>
+								 <div class="percent">30%</div> 
+								 <div class="clearfix"> </div>
+							    </span>
+							</div>
+						</div>
+						<p>语言掌握</p>
+						<div class="progress-grid">
+				  	       <div class="meter red">
+							   <span style="width:80%;">
+							  	<div class="progress_desc">HTML / HTML5</div>
+								<div class="percent">80%</div> 
+						        <div class="clearfix"> </div>
+						       </span>
+							</div>
+							<div class="meter animate">
+							   <span style="width:65%;"><div class="progress_desc">CSS / CSS3</div>
+								<div class="percent">65%</div> 
+						        <div class="clearfix"> </div>
+							   </span>
+							</div>
+							<div class="meter">
+								<span style="width:60%;"><div class="progress_desc">JavaScript / jquery</div>
+								 <div class="percent">60%</div> 
+								 <div class="clearfix"> </div>
+							    </span>
+							</div>
+						</div>
+					  </div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<!-- about-section-ends -->
+		<!-- portfolio-section-starts -->
+		<div class="portfolio-section" id="WORK">
+			<div class="portfolio-section-top-row">
+				<div class="container">
+					<div class="portfolio-section-head text-center">
+						<h3>代表作品</h3>
+						<label></label>
+						<p>你想了解我吗?</p>
+					</div>
+					<div class="col-md-4 portfolio-section-top-row-left-grid">
+						<div class="project-name">
+							<span>项目名称</span>
+							<h3>电商平台</h3>
+						</div>
+						<div class="project-description">
+							 <span>项目描述</span>
+							 <ul>
+								<li><a href="#">电商平台需求分析</a></li>
+								<li><a href="#">商品与用户的数据库设计</a></li>
+								<li><a href="#">前端设计与后台开发</a></li>
+							 </ul>
+						</div>
+						<div class="tags">
+							<span>tags</span>
+							<p>web开发，电子商务</p>
+						</div>
+						<div class="project-name">
+							<span>项目名称</span>
+							<h3>XXX重大技术需求征集系统</h3>
+						</div>
+						<div class="project-description">
+							 <span>项目描述</span>
+							 <ul>
+								<li><a href="#">需求分析、数据库设计</a></li>
+								<li><a href="#">定制用户权限</a></li>
+								<li><a href="#">统计查询可视化展示</a></li>
+							 </ul>
+						</div>
+						<div class="tags">
+							<span>tags</span>
+							<p>web开发，政务公开</p>
+						</div>
+					</div>
+					<div class="col-md-8 portfolio-section-top-row-right-grid">
+					<video src="images/zxw.mp4" height="600px" controls preload="metadata" ></video>
+			<!-- <div class="wmuSlider example1 section" id="section-1">
+				   <article style="position: absolute; width: 100%; opacity: 0;"> 
+						<img src="images/img1.jpg" class="img-responsive" alt="">
+					</article>
+					<article style="position: absolute; width: 100%; opacity: 0;"> 
+	`					<img src="images/img2.jpg" class="img-responsive" alt="">
+					</article>
+					<article style="position: absolute; width: 100%; opacity: 0;"> 
+						<img src="images/img3.jpg" class="img-responsive" alt="">
+					</article>
+					<ul class="wmuSliderPagination">
+	                	<li><a href="#" class="">0</a></li>
+	                	<li><a href="#" class="">1</a></li>
+	                	<li><a href="#" class="">2</a></li>
+	                </ul>
+	
+			  </div> -->
+			  
+			  <!-- script -->
+			  <script src="js/jquery.wmuSlider.js"></script> 
+				<script>
+					$('.example1').wmuSlider();         
+				</script>
+				<!-- script -->	
+
+			     </div>
+			    <div class="clearfix"></div>
+			  </div>
+			</div>
+			
+
+</body>
+</html>
